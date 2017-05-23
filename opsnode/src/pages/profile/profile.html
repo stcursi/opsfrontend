@@ -1,0 +1,52 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Il mio Profilo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="./../assets/images/profile.png">
+      </ion-avatar>
+      <h2>{{currentUser.name}}</h2>
+      <p>{{currentUser.email}}</p>
+    </ion-item>
+
+    <ion-list>
+      <ion-item (click)="showFriends();">
+        <ion-icon name="contacts" item-left></ion-icon>
+        Friends
+        <button ion-button outline>{{friends.length}}</button>
+        <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+      </ion-item>
+
+      <ion-item (click)="showFriendRequest();">
+        <ion-icon name="ios-contacts-outline" item-left></ion-icon>
+        Richieste di amicizia
+        <button ion-button outline>{{requests.length}}</button>
+        <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+      </ion-item>
+
+      <ion-item (click)="showMessage();">
+        <ion-icon name="mail" item-left></ion-icon>
+        Messaggi
+        <button ion-button outline>{{outbox_num}}</button>
+        <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+      </ion-item>
+
+      <ion-item (click)="logout();">
+        <ion-icon name="ios-send" item-left></ion-icon>
+        Logout
+      </ion-item>
+    </ion-list>
+
+
+  </ion-card>
+
+</ion-content>
