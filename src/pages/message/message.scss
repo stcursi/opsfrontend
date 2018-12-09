@@ -1,0 +1,67 @@
+
+.modal {
+padding: 30px;
+background: rgba(0,0,0,0.5);
+}
+.disabledfeature{
+color: #8f8f8f;
+}
+
+ion-scroll {
+  white-space: nowrap;
+  height: 100px
+}
+
+img{
+  margin: 10px;
+}
+
+ion-list{
+  width: 100%;
+  display: inline-block;
+}
+
+.message-page {
+  
+    .toolbar-background {
+      background: #fff;
+      border-color: transparent;
+    }
+  
+    .slide-zoom {
+      height: 100%;
+    }
+  
+    .slide-title {
+      margin-top: 2.8rem;
+    }
+
+    .text-message {
+      border: 2px solid #FF8000;
+      border-radius: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  
+    .slide-image {
+      max-height: 50%;
+      max-width: 60%;
+      margin: 18px 0;
+    }
+  
+    b {
+      font-weight: 500;
+    }
+  
+    p {
+      padding: 0 40px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #60646B;
+  
+      b {
+        color: #000000;
+      }
+    }
+  
+  }

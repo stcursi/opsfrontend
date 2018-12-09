@@ -1,0 +1,70 @@
+.ios, .md {
+ 
+    login-page {
+
+        ion-content {
+            align-items: center;                        
+            background-color: #FF8000;            
+        }
+ 
+        scroll-content {
+            display: flex;
+            flex-direction: column;
+            vertical-align: middle;            
+        }
+ 
+        ion-row {
+            text-align: center;
+        }
+ 
+        ion-item {
+            border-radius: 30px !important;
+            padding-left: 10px !important;
+            margin: 8px;
+            width: 100%;
+            background-color: #f6f6f6;
+            opacity: 0.7;
+            font-size: 0.9em;
+        }
+ 
+        ion-list {
+            width: 300px;
+            margin: 2px;
+        }
+
+        .navbar {
+            background-color: #FF8000;
+            text-align: center;
+        }
+ 
+        .login-logo {
+            flex: 2;
+        }
+ 
+        .login-form {
+            flex: 1;
+            align-items: center;
+        }
+ 
+        .create-account {
+            color: #ff471a;
+            text-decoration: underline;
+            background-color: #fff;
+        }
+
+        .list-title {
+            margin: 20px;
+        }
+ 
+        .login-button {
+            border-radius: 30px;
+            font-size: 0.9em;
+            margin: 8px;
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid #fff;
+        }
+ 
+    }
+ 
+}
